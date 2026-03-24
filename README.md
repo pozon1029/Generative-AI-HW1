@@ -13,8 +13,8 @@
 2. 安裝套件、設定金鑰與啟動程式
     ```bash
     pip install -r requirements.txt
-    # 請將下方替換為你的實際金鑰
-    export GOOGLE_API_KEY="貼上你的_GEMINI_API_金鑰"
+    # 專案根目錄手動建立一個名為 .env 的檔案，內容如下：
+    GOOGLE_API_KEY=在此貼上你的_GEMINI_API_金鑰
     streamlit run mygemini.py
     ```
 
